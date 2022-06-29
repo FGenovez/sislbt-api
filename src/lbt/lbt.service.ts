@@ -153,6 +153,7 @@ return register;
             dto1 = {inpConcepto: 'A'}
             dto1.inpCodigo = dto.id;
             dto1.inpCodtin = dto.instruccion.inpCodtin;
+            dto1.inpCtades = dto.instruccion.inpCtades;
             dto1.inpCodtop = dto.instruccion.inpCodtop; 
             dto1.inpCodtpa = dto.instruccion.inpCodtpa; 
             dto1.inpCodtdv = dto.instruccion.inpCodtdv; 
